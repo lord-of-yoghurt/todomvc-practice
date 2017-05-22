@@ -2,8 +2,10 @@
 	<header class="header">
 		<h1>Your lists</h1>
 		<%= form_for(@list) do |f| %>
-			<%= f.text_field :name, class: "new-todo" %>
-			<!-- <%= # f.submit, style: "display: none" %> -->
+			<%= f.text_field :name, class: "new-todo",
+					placeholder: (@list.errors.full_messages_for(:name).first ||
+					"Add a new list...") %>
+			<%= f.submit style: "display: none" %>
 		<% end %>
 
 	</header>
