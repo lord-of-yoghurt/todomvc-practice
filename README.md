@@ -1,24 +1,10 @@
-# README
+# TODO-MVC Practice App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a practice todo list app created using Rails 5 and a front-end
+created by http://todomvc.com/. Basic functionality:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Creating lists
+* Associating items with lists
+* Creating items
+* Marking items complete/incomplete
+* Deleting items
